@@ -27,9 +27,15 @@ public class App
         return reverse;
     }
 
-    public String SentenceReverse(){
+    public String SentenceReverse(String sentence){
 
         String reverse = "";
+        String[] words = sentence.split("\\s");
+        int wordCount = words.length;
+
+        for (int i =0; i < wordCount; i++){
+            reverse = reverse + StringReverse(words[i]);
+        }
 
         return reverse;
     }

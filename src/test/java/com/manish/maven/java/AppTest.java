@@ -31,11 +31,20 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
+    public void testStringReverse()
     {
         App app = new App();
         assertEquals("String Reverse Failed  ", "", app.StringReverse("") );
         assertEquals("String Reverse Failed  ", "H", app.StringReverse("H") );
         assertEquals("String Reverse Failed  ", "olleH", app.StringReverse("Hello") );
+    }
+
+    public void testSentenceReverse(){
+
+        App app = new App();
+        assertEquals("String Reverse Failed  ", "", app.SentenceReverse("") );
+        assertEquals("String Reverse Failed  ", "R", app.SentenceReverse("R") );
+        assertEquals("String Reverse Failed  ", "yadoTsiyadnoM", app.SentenceReverse("Today is Monday") );
+
     }
 }
