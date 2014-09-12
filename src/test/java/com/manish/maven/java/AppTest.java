@@ -7,44 +7,48 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-    extends TestCase
-{
+public class AppTest
+        extends TestCase {
     /**
      * Create the test case
      *
      * @param testName name of the test case
      */
-    public AppTest( String testName )
-    {
-        super( testName );
+    public AppTest(String testName) {
+        super(testName);
     }
 
     /**
      * @return the suite of tests being tested
      */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
+    public static Test suite() {
+        return new TestSuite(AppTest.class);
     }
 
     /**
      * Rigourous Test :-)
      */
-    public void testStringReverse()
-    {
+    public void testStringReverse() {
         App app = new App();
-        assertEquals("String Reverse Failed  ", "", app.StringReverse("") );
-        assertEquals("String Reverse Failed  ", "H", app.StringReverse("H") );
-        assertEquals("String Reverse Failed  ", "olleH", app.StringReverse("Hello") );
+        assertEquals("String Reverse Failed  1", "", app.StringReverse(""));
+        assertEquals("String Reverse Failed  2", "H", app.StringReverse("H"));
+        assertEquals("String Reverse Failed  3", "olleH", app.StringReverse("Hello"));
     }
 
-    public void testSentenceReverse(){
+    public void testSentenceReverse() {
 
         App app = new App();
-        assertEquals("String Reverse Failed  ", "", app.SentenceReverse("") );
-        assertEquals("String Reverse Failed  ", "R", app.SentenceReverse("R") );
-        assertEquals("String Reverse Failed  ", "yadoTsiyadnoM", app.SentenceReverse("Today is Monday") );
+        assertEquals("SentenceReverse 1Failed  ", "", app.SentenceReverse(""));
+        assertEquals("SentenceReverse 2 Failed  ", "R", app.SentenceReverse("R"));
+        assertEquals("SentenceReverse 3 Failed  ", "yadoTsiyadnoM", app.SentenceReverse("Today is Monday"));
+
+    }
+
+    public void testUniqCharacter() {
+        App app = new App();
+        assertEquals("UniqCharacter 1 Failed  ", "", app.UniqCharacter(""));
+        assertEquals("UniqCharacter 2 Failed  ", "c", app.UniqCharacter("AABBcAADD"));
+        assertEquals("UniqCharacter 3 Failed  ", "c", app.UniqCharacter("c"));
 
     }
 }
