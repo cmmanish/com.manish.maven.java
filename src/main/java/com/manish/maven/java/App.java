@@ -7,6 +7,27 @@ import java.util.Map;
  * Hello world!
  */
 public class App {
+
+    public int Fibonachi(int n) {
+
+        if (n == 1 || n == 2)
+            return 1;
+
+        int fibi = 1, fib1 = 1, fib2 = 1;
+
+        for (int i = 3; i < n; i++) {
+
+            fibi = fib1 + fib2;
+            fib1 = fib2;
+            fib2 = fibi;
+
+        }
+
+        return fibi;
+
+    }
+
+
     public String StringReverse(String iString) {
 
         String reverse = "";

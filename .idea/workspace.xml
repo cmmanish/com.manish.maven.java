@@ -68,24 +68,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AppTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/manish/maven/java/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="61" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="986">
+            <state line="36" column="17" selection-start="769" selection-end="769" vertical-scroll-proportion="0.50645626" vertical-offset="157" max-vertical-offset="1005">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/manish/maven/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="0" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.875" vertical-offset="555" max-vertical-offset="1080">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#App#0" expanded="false" />
-                <element signature="e#1020#1040#0" expanded="true" />
-              </folding>
+            <state line="17" column="8" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1410">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,8 +97,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/manish/maven/java/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/manish/maven/java/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/manish/maven/java/AppTest.java" />
       </list>
     </option>
   </component>
@@ -162,10 +158,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.manish.maven.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.manish.maven.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,7 +196,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="JUnit.AppTest.testFibonachi">
     <configuration default="false" name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.manish.maven.java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -234,6 +244,28 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AppTest.testFibonachi" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <module name="com.manish.maven.java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.manish.maven.java" />
+      <option name="MAIN_CLASS_NAME" value="com.manish.maven.java.AppTest" />
+      <option name="METHOD_NAME" value="testFibonachi" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -298,14 +330,16 @@
       <patterns />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AppTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.AppTest.testUniqCharacter" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AppTest.testFibonachi" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AppTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AppTest.testUniqCharacter" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AppTest.testFibonachi" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AppTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AppTest.testUniqCharacter" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -324,14 +358,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="843" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29931036" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29931036" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965517" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -375,6 +409,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/manish/maven/java/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="32" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/manish/maven/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="1005" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/manish/maven/java/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="5" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <folding />
         </state>
@@ -383,11 +431,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/manish/maven/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="0" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="705">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#App#0" expanded="false" />
-            <element signature="e#1020#1040#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -401,11 +445,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/manish/maven/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="8" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="645">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#App#0" expanded="false" />
-            <element signature="e#1020#1040#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -416,21 +456,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/manish/maven/java/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/manish/maven/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="61" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="986">
+        <state line="17" column="8" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1410">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/manish/maven/java/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/manish/maven/java/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.875" vertical-offset="555" max-vertical-offset="1080">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#App#0" expanded="false" />
-            <element signature="e#1020#1040#0" expanded="true" />
-          </folding>
+        <state line="36" column="17" selection-start="769" selection-end="769" vertical-scroll-proportion="0.50645626" vertical-offset="157" max-vertical-offset="1005">
+          <folding />
         </state>
       </provider>
     </entry>

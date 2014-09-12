@@ -28,6 +28,15 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
+
+    public void testFibonachi(){
+
+        App app = new App();
+        assertEquals("Fib Failed  1",2, app.Fibonachi(4));
+        assertEquals("Fib Failed  2",1, app.Fibonachi(1));
+        assertEquals("Fib Failed  3",8, app.Fibonachi(7));
+    }
+
     public void testStringReverse() {
         App app = new App();
         assertEquals("String Reverse Failed  1", "", app.StringReverse(""));
