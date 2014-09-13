@@ -8,6 +8,23 @@ import java.util.Map;
  */
 public class App {
 
+    public int Factorial(int n) {
+
+        int fact = 0;
+        int fact1 = 1, fact2 = 2;
+
+        if (n ==1 ){
+            return 1;
+        }
+        else if (n ==2 ){
+            return 2;
+        }
+        else {
+            return n * Factorial(n-1);
+        }
+
+    }
+
     public int Fibonachi(int n) {
 
         if (n == 1 || n == 2)

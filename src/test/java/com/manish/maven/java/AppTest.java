@@ -29,6 +29,15 @@ public class AppTest
      * Rigourous Test :-)
      */
 
+
+    public void testFactorial(){
+        App app = new App();
+        assertEquals("Fact Failed  1",1, app.Factorial(1));
+        assertEquals("Fact Failed  2",24, app.Factorial(4));
+        assertEquals("Fact Failed  3",2, app.Factorial(2));
+
+    }
+
     public void testFibonachi(){
 
         App app = new App();
