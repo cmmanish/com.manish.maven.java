@@ -1,6 +1,7 @@
 package com.manish.maven.java;
 
 import java.util.HashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
 
 /**
@@ -8,19 +9,70 @@ import java.util.Map;
  */
 public class App {
 
+    public boolean isPalindrome(String str) {
+
+        if (null == str || str.matches("\\s*")) {
+            return false;
+        }
+
+        StringBuffer sb = new StringBuffer(str);
+        String rev = sb.reverse().toString();
+
+        if (str.equalsIgnoreCase(rev)) {
+            return true;
+        }
+        else {
+
+            return false;
+        }
+    }
+
+    public int[] removeDuplicates(int[] array) {
+
+        LinkedHashSet<Integer> lhs = new LinkedHashSet<Integer>();
+
+        for (int a : array) {
+            lhs.add(new Integer(a));
+        }
+
+        lhs.toArray();
+
+        return array;
+
+    }
+
+    public String replaceWordsInSentence(String sentence) {
+
+        String[] array = sentence.split("[\\s*]");
+
+        for (String str : array) {
+            StringBuffer sb = new StringBuffer(str);
+            sentence = sentence.replace(str, sb.reverse().toString());
+        }
+        return sentence;
+    }
+
+    public String StringBufferReverse(String str) {
+
+        StringBuffer sb = new StringBuffer(str);
+        return sb.reverse().toString();
+
+
+    }
+
     public int Factorial(int n) {
 
         int fact = 0;
         int fact1 = 1, fact2 = 2;
 
-        if (n ==1 ){
+        if (n == 1) {
             return 1;
         }
-        else if (n ==2 ){
+        else if (n == 2) {
             return 2;
         }
         else {
-            return n * Factorial(n-1);
+            return n * Factorial(n - 1);
         }
 
     }

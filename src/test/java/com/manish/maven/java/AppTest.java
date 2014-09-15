@@ -29,21 +29,46 @@ public class AppTest
      * Rigourous Test :-)
      */
 
-
-    public void testFactorial(){
+    public void testIsPalindrome(){
         App app = new App();
-        assertEquals("Fact Failed  1",1, app.Factorial(1));
-        assertEquals("Fact Failed  2",24, app.Factorial(4));
-        assertEquals("Fact Failed  3",2, app.Factorial(2));
+        assertEquals("Fact Failed  1", false, app.isPalindrome(""));
+        assertEquals("Fact Failed  2", true, app.isPalindrome("aba"));
+        assertEquals("Fact Failed  w", false, app.isPalindrome("aadba"));
+    }
+
+
+    public void testeplaceWordsInSetence() {
+
+        App app = new App();
+        assertEquals("Fact Failed  1", "", app.replaceWordsInSentence(""));
+        assertEquals("Fact Failed  2", "s", app.replaceWordsInSentence("s"));
+        assertEquals("Fact Failed  3", "yadot si yadnom ot", app.replaceWordsInSentence("today is monday to"));
 
     }
 
-    public void testFibonachi(){
+    public void testStringBufferReverse() {
 
         App app = new App();
-        assertEquals("Fib Failed  1",2, app.Fibonachi(4));
-        assertEquals("Fib Failed  2",1, app.Fibonachi(1));
-        assertEquals("Fib Failed  3",8, app.Fibonachi(7));
+        assertEquals("Fact Failed  1", "", app.StringBufferReverse(""));
+        assertEquals("Fact Failed  2", "s", app.StringBufferReverse("s"));
+        assertEquals("Fact Failed  3", "yadoT", app.StringBufferReverse("Today"));
+
+    }
+
+    public void testFactorial() {
+        App app = new App();
+        assertEquals("Fact Failed  1", 1, app.Factorial(1));
+        assertEquals("Fact Failed  2", 24, app.Factorial(4));
+        assertEquals("Fact Failed  3", 2, app.Factorial(2));
+
+    }
+
+    public void testFibonachi() {
+
+        App app = new App();
+        assertEquals("Fib Failed  1", 2, app.Fibonachi(4));
+        assertEquals("Fib Failed  2", 1, app.Fibonachi(1));
+        assertEquals("Fib Failed  3", 8, app.Fibonachi(7));
     }
 
     public void testStringReverse() {

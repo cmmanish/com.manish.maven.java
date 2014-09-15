@@ -68,10 +68,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/manish/maven/java/AppTest.java">
+      <file leaf-file-name="BetterProgrammerTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/manish/maven/java/BetterProgrammerTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="24" selection-start="596" selection-end="596" vertical-scroll-proportion="0.10058027" vertical-offset="398" max-vertical-offset="1140">
+            <state line="562" column="26" selection-start="13823" selection-end="13823" vertical-scroll-proportion="0.0" vertical-offset="7996" max-vertical-offset="15420">
               <folding />
             </state>
           </provider>
@@ -80,7 +80,18 @@
       <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/manish/maven/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1665">
+            <state line="14" column="25" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2430">
+              <folding>
+                <element signature="e#626#635#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/manish/maven/java/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="24" selection-start="593" selection-end="603" vertical-scroll-proportion="0.2789855" vertical-offset="281" max-vertical-offset="1515">
               <folding />
             </state>
           </provider>
@@ -110,9 +121,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="-656" />
+    <option name="y" value="1102" />
     <option name="width" value="1440" />
-    <option name="height" value="843" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -172,6 +184,44 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.manish.maven.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.manish.maven.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -196,57 +246,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testFactorial">
-    <configuration default="false" name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.manish.maven.java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="com.manish.maven.java" />
-      <option name="MAIN_CLASS_NAME" value="com.manish.maven.java.AppTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="AppTest.testUniqCharacter" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <module name="com.manish.maven.java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="com.manish.maven.java" />
-      <option name="MAIN_CLASS_NAME" value="com.manish.maven.java.AppTest" />
-      <option name="METHOD_NAME" value="testUniqCharacter" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.AppTest.testIsPalindrome">
     <configuration default="false" name="AppTest.testFibonachi" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <module name="com.manish.maven.java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -276,6 +276,72 @@
       <option name="PACKAGE_NAME" value="com.manish.maven.java" />
       <option name="MAIN_CLASS_NAME" value="com.manish.maven.java.AppTest" />
       <option name="METHOD_NAME" value="testFactorial" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AppTest.testStringBufferReverse" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <module name="com.manish.maven.java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.manish.maven.java" />
+      <option name="MAIN_CLASS_NAME" value="com.manish.maven.java.AppTest" />
+      <option name="METHOD_NAME" value="testStringBufferReverse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AppTest.testeplaceWordsInSetence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.manish.maven.java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.manish.maven.java" />
+      <option name="MAIN_CLASS_NAME" value="com.manish.maven.java.AppTest" />
+      <option name="METHOD_NAME" value="testeplaceWordsInSetence" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AppTest.testIsPalindrome" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <module name="com.manish.maven.java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.manish.maven.java" />
+      <option name="MAIN_CLASS_NAME" value="com.manish.maven.java.AppTest" />
+      <option name="METHOD_NAME" value="testIsPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
@@ -352,18 +418,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AppTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AppTest.testUniqCharacter" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AppTest.testFibonachi" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AppTest.testFactorial" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AppTest.testFibonachi" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AppTest.testFactorial" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AppTest.testStringBufferReverse" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AppTest.testeplaceWordsInSetence" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AppTest.testIsPalindrome" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AppTest.testFactorial" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AppTest.testFibonachi" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AppTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AppTest.testUniqCharacter" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AppTest.testIsPalindrome" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AppTest.testeplaceWordsInSetence" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AppTest.testStringBufferReverse" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AppTest.testFactorial" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AppTest.testFibonachi" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -381,7 +449,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="843" extended-state="0" />
+    <frame x="-656" y="1102" width="1440" height="878" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -389,7 +457,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29931036" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23034483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965517" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -397,11 +465,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24856733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24140401" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24827586" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16475645" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23684211" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -441,7 +509,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/manish/maven/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="8" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1425">
-          <folding />
+          <folding>
+            <element signature="e#626#635#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -455,7 +525,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/manish/maven/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="0" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="1005" max-vertical-offset="1110">
-          <folding />
+          <folding>
+            <element signature="e#626#635#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -469,7 +541,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/manish/maven/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="0" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="705">
-          <folding />
+          <folding>
+            <element signature="e#626#635#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -483,7 +557,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/manish/maven/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="8" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="645">
-          <folding />
+          <folding>
+            <element signature="e#626#635#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -494,16 +570,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/manish/maven/java/BetterProgrammerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="562" column="26" selection-start="13823" selection-end="13823" vertical-scroll-proportion="0.0" vertical-offset="8041" max-vertical-offset="15420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/manish/maven/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1665">
-          <folding />
+        <state line="14" column="25" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2430">
+          <folding>
+            <element signature="e#626#635#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/manish/maven/java/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="24" selection-start="596" selection-end="596" vertical-scroll-proportion="0.10058027" vertical-offset="398" max-vertical-offset="1140">
+        <state line="31" column="24" selection-start="593" selection-end="603" vertical-scroll-proportion="0.2789855" vertical-offset="281" max-vertical-offset="1515">
           <folding />
         </state>
       </provider>
