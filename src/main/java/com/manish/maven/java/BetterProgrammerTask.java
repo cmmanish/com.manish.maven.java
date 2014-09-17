@@ -1,14 +1,6 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedHashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+package com.manish.maven.java;
+
+import java.util.*;
 
 public class BetterProgrammerTask {
 
@@ -644,7 +636,7 @@ public class BetterProgrammerTask {
     
     public static double getProbability(int Y, int X) {
         /*
-          If you roll Y standard six-sided dice, whatÕs the probability that you get at least X 4s?
+          If you roll Y standard six-sided dice, whatï¿½s the probability that you get at least X 4s?
           To calculate that you should divide the number of comibnations with X or more 4s
           by the total number of possible combinations.
          */

@@ -9,6 +9,73 @@ import java.util.Map;
  */
 public class App {
 
+    public boolean binarySearch(int[] a, int key) {
+
+        boolean flag = false;
+        int mid = a.length / 2;
+        int low = 0;
+        int high = a.length - 1;
+
+        while (low <= high) {
+
+            if (key > a[mid]) {
+                low = mid + 1;
+            }
+            else if (key < a[mid]) {
+                high = mid - 1;
+            }
+            else {
+                flag = true;
+            }
+
+            mid = (low + high) / 2;
+        }
+
+        return flag;
+    }
+
+    public int[] bubbleSort(int[] numbers) {
+
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = 0; j < numbers.length - 1; j++) {
+
+                if (numbers[j] > numbers[j + 1]) {
+
+                    int tempVar = numbers[j + 1];
+                    numbers[j + 1] = numbers[i];
+                    numbers[i] = tempVar;
+                }
+            }
+        }
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+
+        return numbers;
+
+    }
+
+    public String capitalizeFirstLetters(String str) {
+
+        String words[] = str.split(" ");
+
+        for (String word : words) {
+            if (word.length() > 1) {
+
+                char ch = word.charAt(0);
+                if (!Character.isDigit(ch)) {
+                    ch = Character.toUpperCase(ch);
+                }
+                StringBuffer sb = new StringBuffer(word);
+                sb.setCharAt(0, ch);
+                str = str.replace(word, sb.toString());
+
+            }
+        }
+        return str;
+
+    }
+
     public boolean isPalindrome(String str) {
 
         if (null == str || str.matches("\\s*")) {
@@ -61,9 +128,6 @@ public class App {
     }
 
     public int Factorial(int n) {
-
-        int fact = 0;
-        int fact1 = 1, fact2 = 2;
 
         if (n == 1) {
             return 1;

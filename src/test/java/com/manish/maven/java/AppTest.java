@@ -29,37 +29,56 @@ public class AppTest
      * Rigourous Test :-)
      */
 
-    public void testIsPalindrome(){
+    public void testBinarySearch() {
+
         App app = new App();
-        assertEquals("Fact Failed  1", false, app.isPalindrome(""));
-        assertEquals("Fact Failed  2", true, app.isPalindrome("aba"));
-        assertEquals("Fact Failed  w", false, app.isPalindrome("aadba"));
+        int[] arr = { 5, 8, 14, 17, 78 };
+       // assertEquals("Test Failed  1", true, app.binarySearch(arr, 17));
+    }
+
+    public void testA() {
+        App app = new App();
+        assertEquals("Test Failed  1", "Abc", app.capitalizeFirstLetters("abc"));
+        assertEquals("Test Failed  2", "Abc Dbb", app.capitalizeFirstLetters("abc dbb"));
+    }
+
+    public void testCapitalizeFirstLetters() {
+        App app = new App();
+        assertEquals("Test Failed  1", "Abc", app.capitalizeFirstLetters("abc"));
+        assertEquals("Test Failed  2", "Abc Dbb", app.capitalizeFirstLetters("abc dbb"));
+    }
+
+    public void testIsPalindrome() {
+        App app = new App();
+        assertEquals("Test Failed  1", false, app.isPalindrome(""));
+        assertEquals("Test Failed  2", true, app.isPalindrome("aba"));
+        assertEquals("Test Failed  w", false, app.isPalindrome("aadba"));
     }
 
 
     public void testeplaceWordsInSetence() {
 
         App app = new App();
-        assertEquals("Fact Failed  1", "", app.replaceWordsInSentence(""));
-        assertEquals("Fact Failed  2", "s", app.replaceWordsInSentence("s"));
-        assertEquals("Fact Failed  3", "yadot si yadnom ot", app.replaceWordsInSentence("today is monday to"));
+        assertEquals("Test Failed  1", "", app.replaceWordsInSentence(""));
+        assertEquals("Test Failed  2", "s", app.replaceWordsInSentence("s"));
+        assertEquals("Test Failed  3", "yadot si yadnom ot", app.replaceWordsInSentence("today is monday to"));
 
     }
 
     public void testStringBufferReverse() {
 
         App app = new App();
-        assertEquals("Fact Failed  1", "", app.StringBufferReverse(""));
-        assertEquals("Fact Failed  2", "s", app.StringBufferReverse("s"));
-        assertEquals("Fact Failed  3", "yadoT", app.StringBufferReverse("Today"));
+        assertEquals("Test Failed  1", "", app.StringBufferReverse(""));
+        assertEquals("Test Failed  2", "s", app.StringBufferReverse("s"));
+        assertEquals("Test Failed  3", "yadoT", app.StringBufferReverse("Today"));
 
     }
 
     public void testFactorial() {
         App app = new App();
-        assertEquals("Fact Failed  1", 1, app.Factorial(1));
-        assertEquals("Fact Failed  2", 24, app.Factorial(4));
-        assertEquals("Fact Failed  3", 2, app.Factorial(2));
+        assertEquals("Test Failed  1", 1, app.Factorial(1));
+        assertEquals("Test Failed  2", 24, app.Factorial(4));
+        assertEquals("Test Failed  3", 2, app.Factorial(2));
 
     }
 
